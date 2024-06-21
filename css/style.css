@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-none{display: none;}
+.block{display: block;}
+.j-center{justify-content: center;}
+.j-between{justify-content: space-between;}
+.j-around{justify-content: space-around;}
+.j-end{justify-content: end;}
+.a-center{align-items: center;}
+.txt-center{text-align: center;}
+
+body, #containConfirm{position: relative;}
+.fond{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../assets/fond_smart_DistriTech.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#menu, #popModif{
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+}
+#closeMenu{
+    position: relative;
+    top: -24px;
+    left: 150px;
+}
+#confirm{
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    top: -65px;
+    left: -245px;
+}
+
+.blue{color: rgb(19, 51, 92);}
+.red{color: rgb(90, 24, 24);}
+.white{color: white;}
+
+.fs10{font-size: 10px;}
+.fs12{font-size: 12px;}
+.fs14{font-size: 14px;}
+.fs16{font-size: 16px;}
+.fs18{font-size: 18px;}
+.fs20{font-size: 20px;}
+.fs32{font-size: 32px;}
+
+.wfit{width: fit-content;}
+.w30{width: 30px;}
+.w100p{width: 100%;}
+.w150{width: 150px;}
+.w200{width: 200px;}
+.w300{width: 300px;}
+
+.h60{height: 60px;}
+
+.mt4{margin-top: 4px;}
+.mt16{margin-top: 16px;}
+.mb16{margin-bottom: 16px;}
+.mt40{margin-top: 40px;}
+.mrlauto{
+    margin-right: auto;
+    margin-left: auto;
+}
+.ml32{margin-left: 32px;}
+.gap16{gap: 16px;}
+.titre{height: 80px;}
+table{border-spacing: 10px;}
+tr{position: relative;}
+.tdPop{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    background-image: url("../assets/logoTechoTb.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.encart{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 32px 0 32px 0;
+}
+
+ul li {list-style: none;}
+
+input {
+    padding: 4px 8px;
+}
+button, input[type="submit"] {
+    color: white;
+    background-color: rgb(32, 76, 134);
+    border: none;
+    border-radius: 3px;
+}
+.btn{
+    background-color: rgb(32, 76, 134);
+    border-radius: 3px;
+}
+.btnPad{padding: 2px 4px;}
+:visited, :active, :link{
+    text-decoration: none;
+    color: rgb(19, 51, 92);
+}
